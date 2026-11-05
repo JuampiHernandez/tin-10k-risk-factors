@@ -1,0 +1,6 @@
+NVDA
+HD
+TSLA
+JPM
+PFE
+WMT

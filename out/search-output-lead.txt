@@ -1,0 +1,46 @@
+## 1. Phrase with proximity: supply disruption language
+  ticker=HD | filed_on=2026-03-18 | score=11.300404
+      excerpt: <b>Disruptions within our logistics or supply chain</b> network, such as the industry-wide supply chain challenges that resulted from the COVID-19 pandemic, have adversely affected and may in the futu
+      source_url: https://www.sec.gov/Archives/edgar/data/354950/000162828026019436/hd-20260201.htm
+  ticker=NVDA | filed_on=2026-02-25 | score=10.066961
+      excerpt: employment, labor shortages, and lower consumer confidence and spending, global <b>supply chain constraints</b>, and global economic and geopolitical developments, including the implementation of tari
+      source_url: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+  ticker=PFE | filed_on=2026-02-26 | score=5.667163
+      excerpt: tary withdrawal of all lots of Oxbryta in all markets where it is approved; and <b>supply chain disruptions</b> at our facilities or at a supplier or vendor. In addition, we engage contract manufactur
+      source_url: https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/pfe-20251231.htm
+
+## 2. Exact counts per company: cybersecurity next to third parties
+  ticker=HD | matching_chunks=5
+  ticker=PFE | matching_chunks=4
+  ticker=WMT | matching_chunks=4
+  ticker=JPM | matching_chunks=2
+  ticker=NVDA | matching_chunks=1
+  ticker=TSLA | matching_chunks=1
+
+## 3. Ordered span: export then controls within five words
+  ticker=NVDA | score=4.832835
+      excerpt: <b>Export controls</b> have and could in the future disrupt our supply chain and distribution channels, negatively impacting our ability to serve demand, including in markets outside China and for our
+      source_url: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+  ticker=NVDA | score=4.7990646
+      excerpt: Such restrictions could include additional unilateral or multilateral <b>export controls</b> on certain products or technology, including but not limited to AI technologies. As geopolitical tensions h
+      source_url: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+  ticker=NVDA | score=4.7627535
+      excerpt: The increasingly complex <b>export controls</b> impose complex and burdensome compliance obligations on our partners, suppliers, and customers. While we seek to strictly comply with all applicable <b>
+      source_url: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+
+## 4. Boosted term: artificial intelligence weighted double, regulation required
+  ticker=TSLA | score=12.69949
+      excerpt: rivacy notice or with federal, state or international privacy, data protection, <b>artificial intelligence</b> or security laws or <b>regulations</b> relating to the processing, collection, use, reten
+      source_url: https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm
+  ticker=NVDA | score=10.961028
+      excerpt: tions may present further risks, costs, and challenges. Complying with multiple <b>regulations</b> from different jurisdictions related to AI may further increase our cost of doing business, may chang
+      source_url: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+
+## 5. Provenance audit: every filing, where it came from and when it was retrieved
+  ticker=HD | accession=0001628280-26-019436 | filed_on=2026-03-18 | source=sec-gov/filings/sections | retrieved=2026-11-04 | sha=d0647a6aac | chunks=65
+  ticker=JPM | accession=0001628280-26-008131 | filed_on=2026-02-13 | source=sec-gov/filings/sections | retrieved=2026-11-04 | sha=d8b23bb8e3 | chunks=160
+  ticker=NVDA | accession=0001045810-26-000021 | filed_on=2026-02-25 | source=sec-gov/filings/sections | retrieved=2026-11-04 | sha=5a3a805321 | chunks=114
+  ticker=PFE | accession=0000078003-26-000026 | filed_on=2026-02-26 | source=sec-gov/filings/sections | retrieved=2026-11-04 | sha=1c199f8876 | chunks=87
+  ticker=TSLA | accession=0001628280-26-003952 | filed_on=2026-01-29 | source=sec-gov/filings/sections | retrieved=2026-11-04 | sha=0fc8715f7d | chunks=83
+  ticker=WMT | accession=0000104169-26-000055 | filed_on=2026-03-13 | source=sec-gov/filings/sections | retrieved=2026-11-04 | sha=601c9fc615 | chunks=83
+
